@@ -9,9 +9,13 @@ Edit
 
 .
 ├── ui_engagement_dataset_final.csv        # Cleaned dataset with full datetime
+
 ├── analysis.ipynb                         # Jupyter notebook with full analysis
+
 ├── README.md                              # Project documentation
+
 🧠 Objective
+
 Determine whether a newly deployed UI leads to better user engagement by analyzing key metrics and validating results statistically.
 
 🧾 Dataset Description
