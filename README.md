@@ -1,10 +1,12 @@
 📊 Analyzing the Impact of UI Changes on User Engagement
+
 This project analyzes whether a new user interface (UI) design improves user engagement, specifically focusing on time spent, page clicks, and scroll depth. The project mimics a typical A/B testing scenario used by top tech companies like Meta, Netflix, and Google.
 
 📁 Project Structure
 bash
 Copy
 Edit
+
 .
 ├── ui_engagement_dataset_final.csv        # Cleaned dataset with full datetime
 ├── analysis.ipynb                         # Jupyter notebook with full analysis
