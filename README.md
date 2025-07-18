@@ -7,7 +7,7 @@ bash
 Copy
 Edit
 
-.
+
 ├── ui_engagement_dataset_final.csv        # Cleaned dataset with full datetime
 
 ├── analysis.ipynb                         # Jupyter notebook with full analysis
@@ -19,6 +19,7 @@ Edit
 Determine whether a newly deployed UI leads to better user engagement by analyzing key metrics and validating results statistically.
 
 🧾 Dataset Description
+
 Column	Description
 user_id	Unique ID of the user
 session_id	Unique ID of the session
@@ -30,6 +31,7 @@ datetime	Timestamp of session start
 date_formatted	Formatted date in DD-MM-YYYY format
 
 🔍 Project Steps
+
 ✅ 1. Data Cleaning & Preparation
 Checked for missing values and duplicates
 
@@ -43,6 +45,7 @@ Compared metrics across ui_version
 Visualized average time spent, clicks, and scroll depth
 
 🧪 3. Statistical Testing
+
 Performed independent T-tests to assess:
 
 Time spent
@@ -54,6 +57,7 @@ Scroll depth
 Found significant improvement with new UI
 
 🤖 4. Predictive Modeling (Optional)
+
 Built a linear regression model to predict time_spent_seconds
 
 Key features: ui_version, page_clicks, scroll_depth
